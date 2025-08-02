@@ -1,11 +1,10 @@
-<!-- Footer Section - Kont4You WordPress -->
 <footer class="main-footer">
     <div class="container">
         <div class="footer-grid">
             <!-- Company Info -->
             <div class="footer-column">
                 <div class="footer-logo">
-                    Kont<span class="logo-accent">4</span>You
+                    Kont<span style="color: var(--accent-color);">4</span>You
                 </div>
                 <p class="footer-description">
                     Contabilidade com propósito para pequenos empresários em todo o Brasil.
@@ -59,137 +58,8 @@
         
         <div class="footer-bottom">
             <div class="footer-copyright">
-                <p>© 2024 Kont4You - Grupo IRKO. Todos os direitos reservados.</p>
+                <p>© <?php echo date('Y'); ?> Kont4You - Grupo IRKO. Todos os direitos reservados.</p>
             </div>
         </div>
     </div>
 </footer>
-
-<style>
-.main-footer {
-    background-color: #111827;
-    color: white;
-    padding: 64px 0 32px;
-}
-
-.footer-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1.5fr;
-    gap: 32px;
-    margin-bottom: 48px;
-}
-
-.footer-column {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.footer-logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: white;
-}
-
-.logo-accent {
-    color: var(--accent-color);
-}
-
-.footer-description {
-    color: #d1d5db;
-    line-height: 1.6;
-    margin: 0;
-}
-
-.social-links {
-    display: flex;
-    gap: 16px;
-}
-
-.social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    color: #9ca3af;
-    transition: color 0.3s ease;
-}
-
-.social-link:hover {
-    color: var(--accent-color);
-}
-
-.social-link i {
-    font-size: 1.25rem;
-}
-
-.footer-title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: white;
-    margin: 0;
-}
-
-.footer-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.footer-links a {
-    color: #d1d5db;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-    color: var(--accent-color);
-}
-
-.footer-contact {
-    color: #d1d5db;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.footer-contact p {
-    margin: 0;
-}
-
-.footer-bottom {
-    border-top: 1px solid #374151;
-    padding-top: 32px;
-}
-
-.footer-copyright {
-    text-align: center;
-}
-
-.footer-copyright p {
-    color: #9ca3af;
-    margin: 0;
-}
-
-@media (max-width: 1024px) {
-    .footer-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 32px;
-    }
-}
-
-@media (max-width: 768px) {
-    .footer-grid {
-        grid-template-columns: 1fr;
-        gap: 32px;
-    }
-    
-    .main-footer {
-        padding: 48px 0 24px;
-    }
-}
-</style>
