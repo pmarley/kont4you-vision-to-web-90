@@ -1,0 +1,341 @@
+{
+  "version": "0.4",
+  "title": "Kont4You Complete Page Template",
+  "type": "page",
+  "content": [
+    {
+      "id": "hero-section",
+      "elType": "section", 
+      "isInner": false,
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#1e40af",
+        "background_color_b": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-column-1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "hero-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Contabilidade é só o <span style='color: #fbbf24'>começo.</span>",
+                "size": "xl",
+                "header_size": "h1",
+                "color": "#1e40af",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 3.5
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "hero-text",
+              "elType": "widget", 
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Seja para abrir sua empresa ou organizar de vez sua contabilidade, a Kont4You te ajuda a fazer tudo certo — com orientação simples e atendimento humano de verdade.",
+                "typography_font_size": {
+                  "unit": "rem", 
+                  "size": 1.25
+                },
+                "text_color": "#6b7280"
+              }
+            },
+            {
+              "id": "hero-buttons",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Fale com um especialista",
+                "button_type": "success",
+                "size": "lg",
+                "background_color": "#fbbf24",
+                "hover_color": "#f59e0b"
+              }
+            }
+          ]
+        },
+        {
+          "id": "hero-column-2", 
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "hero-image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "hero-image.jpg"
+                },
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": 16,
+                  "right": 16, 
+                  "bottom": 16,
+                  "left": 16
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-section",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "services-heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Nossos Serviços",
+            "align": "center",
+            "header_size": "h2",
+            "color": "#1e40af"
+          }
+        },
+        {
+          "id": "services-grid",
+          "elType": "section",
+          "isInner": true,
+          "settings": {
+            "layout": "boxed",
+            "content_width": "full"
+          },
+          "elements": [
+            {
+              "id": "service-1",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "service-1-icon",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-building",
+                      "library": "fa-solid"
+                    },
+                    "primary_color": "#1e40af",
+                    "size": {
+                      "unit": "px",
+                      "size": 48
+                    }
+                  }
+                },
+                {
+                  "id": "service-1-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Abertura de CNPJ",
+                    "header_size": "h3",
+                    "color": "#1e40af"
+                  }
+                },
+                {
+                  "id": "service-1-text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Abertura 100% digital e gratuita do seu CNPJ, com toda documentação necessária."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "specialists-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f9fafb",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "specialists-heading",
+          "elType": "widget",
+          "widgetType": "heading", 
+          "settings": {
+            "title": "Especialistas nos Seus Desafios",
+            "align": "center",
+            "header_size": "h2",
+            "color": "#1e40af"
+          }
+        },
+        {
+          "id": "specialists-grid",
+          "elType": "section",
+          "isInner": true,
+          "elements": [
+            {
+              "id": "specialist-1",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "specialist-1-image",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "doctor.jpg"
+                    }
+                  }
+                },
+                {
+                  "id": "specialist-1-title",
+                  "elType": "widget", 
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Médicos e Profissionais da Saúde",
+                    "header_size": "h3"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "specialist-2",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "specialist-2-image",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "analytics.jpg"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "specialist-3", 
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "specialist-3-image",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "businessman.jpg"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact-cta-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1e40af",
+        "padding": {
+          "unit": "px", 
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "contact-column-1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "contact-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Pronto para começar?",
+                "header_size": "h2",
+                "color": "#ffffff",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 3
+                }
+              }
+            },
+            {
+              "id": "contact-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Fale com nossos especialistas e descubra como a Kont4You pode transformar a gestão da sua empresa.",
+                "text_color": "#bfdbfe"
+              }
+            }
+          ]
+        },
+        {
+          "id": "contact-column-2",
+          "elType": "column", 
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "contact-form",
+              "elType": "widget",
+              "widgetType": "shortcode",
+              "settings": {
+                "shortcode": "[contact-form-7 id=\"1\" title=\"Formulário de contato\"]"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
